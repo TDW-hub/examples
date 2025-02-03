@@ -64,7 +64,7 @@ $$;
 
 // Step 3: Create a stage and upload pdf files to the stage via DATA > Database > Schema > Stage > +File
 
-create or replace stage docs ENCRYPTION = (TYPE = 'SNOWFLAKE_SSE') DIRECTORY = ( ENABLE = true );
+create or replace stage docs DIRECTORY = ( ENABLE = true );
 
 // Check to ensure files are in the stage using @ls (list) command
 
