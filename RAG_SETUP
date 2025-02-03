@@ -3,8 +3,6 @@
 CREATE DATABASE CC_QUICKSTART_CORTEX_DOCS;
 CREATE SCHEMA DATA;
 
-SELECT * FROM CC_QUICKSTART_CORTEX_DOCS.DATA.DOCS_CHUNKS_TABLE LIMIT 5;
-
 /*
 Step 2: Create a table function that will read the PDF documents and split them in chunks
 
